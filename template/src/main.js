@@ -9,7 +9,6 @@ import App from './App'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 import { router } from './config'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 {{/router}}
 import store from './vuex'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
-Vue.use(VueRouter){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 
 FastClick.attach(document.body){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 
