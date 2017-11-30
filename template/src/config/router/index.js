@@ -8,7 +8,7 @@ export default new Router({
     {
       path: '/',
       name: 'HelloWorld',
-      component: () => import('@/components/HelloWorld'){{#if_eq lintConfig "airbnb"}},{{/if_eq}}
+      component: () => import('@/components/HelloFromVux'){{#if_eq lintConfig "airbnb"}},{{/if_eq}}
     }{{#if_eq lintConfig "airbnb"}},{{/if_eq}}
   ]{{#if_eq lintConfig "airbnb"}},{{/if_eq}}
 }){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
