@@ -5,7 +5,6 @@
 import Vue from 'vue'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 import FastClick from 'fastclick'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 import App from './App'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
-import Home from './components/HelloFromVux'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 {{#router}}
 import { router } from './config'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 {{/router}}
