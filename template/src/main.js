@@ -7,7 +7,7 @@ import FastClick from 'fastclick'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 import VueRouter from 'vue-router'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 import App from './App'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 import Home from './components/HelloFromVux'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
-
+import store from './vuex'
 Vue.use(VueRouter){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 
 const routes = [{
@@ -26,5 +26,6 @@ Vue.config.productionTip = false{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 /* eslint-disable no-new */
 new Vue({
   router,
+  store,
   render: h => h(App){{#if_eq lintConfig "airbnb"}},{{/if_eq}}
 }).$mount('#app-box'){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
