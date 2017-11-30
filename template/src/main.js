@@ -7,7 +7,7 @@ import FastClick from 'fastclick'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 import VueRouter from 'vue-router'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 import App from './App'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 import Home from './components/HelloFromVux'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
-import store from './vuex'
+import store from './vuex'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 Vue.use(VueRouter){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 
 const routes = [{
